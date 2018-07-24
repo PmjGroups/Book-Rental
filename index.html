@@ -7,7 +7,7 @@
 <style>
 @media screen and (max-width:620px) {
   /* For mobile phones: */
-  .background-wrap,input[type=text],#video-element,#search,#ret, {
+  .background-wrap,input[type=text],#search,#ret{
     width:100%;
 	margin-top:0px;
   }
@@ -15,9 +15,29 @@
     width:100%;
 	text-align:center-left;
 	float:left;
-	margin:0px;
+	margin:10px;
 	padding:0px;
 	font-size:2vm;
+  }
+  #text,#satis{
+    width:100%;
+	text-align:center-left;
+	float:left;
+	margin:5px;
+	padding:0px;
+	font-size:2vm;
+  }
+  input[type=submit]
+  {
+	width:50%;
+	margin-left:30%;
+	float:left;
+  }
+  #mname,#h{
+  font-size:2vw;
+  }
+  #footer h5{
+  padding:0px;
   }
 }
 </style>
@@ -33,7 +53,6 @@ video not supported
 <div class="container">
 <div id="header">
 <div id="logo">
-<span id="mlogo" onclick="openNav()" >&#9776;</span>
 <span id="mname" onclick="" ><h2>BOOK RENTAL </h2></span>
 
 </div>
@@ -46,7 +65,7 @@ video not supported
 <div id="content">
 <div id="heading" >
 <div id="h">
-<h1 style="font-size:2vw;">Purchase Or Rent Your Books And Save Upto 90%!!</h1></div>
+<h1>Purchase Or Rent Your Books And Save Upto 90%!!</h1></div>
 <div id="search"><form><input type="text" name="search" placeholder="Search Here Title,Author,Book......"></form></div>
 <div id="buton">
 
