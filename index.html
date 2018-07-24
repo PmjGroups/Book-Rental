@@ -2,8 +2,25 @@
 <head><title>Book Rental</title>
 <link rel="stylesheet" href="main.css"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<style>
+@media screen and (max-width:620px) {
+  /* For mobile phones: */
+  .background-wrap,input[type=text],#video-element,#search,#ret, {
+    width:100%;
+	margin-top:0px;
+  }
+  #return,#text,#satis{
+    width:100%;
+	text-align:center-left;
+	float:left;
+	margin:0px;
+	padding:0px;
+	font-size:2vm;
+  }
+}
+</style>
 
 </head>
 <body>
@@ -29,11 +46,11 @@ video not supported
 <div id="content">
 <div id="heading" >
 <div id="h">
-<h1>Purchase Or Rent Your Books And Save Upto 90%!!</h1></div>
+<h1 style="font-size:2vw;">Purchase Or Rent Your Books And Save Upto 90%!!</h1></div>
 <div id="search"><form><input type="text" name="search" placeholder="Search Here Title,Author,Book......"></form></div>
 <div id="buton">
 
-<button type="submit" onclick="redirect();" value="redirect">Click Here To Continue </button>
+<input type="submit" onclick="redirect();" value="Click Here To Continue">Click Here To Continue </input>
 </div>
 <div id="ret">
 <span id="return"><i class="material-icons" style="font-size:30px;color:white; float:left; margin-top:11px">access_time</i> <h3>Easy Return</h3></span>
